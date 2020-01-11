@@ -49,6 +49,7 @@
 {
     margin-top: 20px;
     margin-bottom: 30px;
+    position: absolute;
     
 }
 .about-content
@@ -92,6 +93,9 @@ background-size: cover;
 {
   
     border-radius: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    
 }
 #boxes{
   margin-top:20px;
@@ -118,10 +122,76 @@ background-size: cover;
   margin-right: .75rem;
   margin-left: .75rem;
 }
+#Courses
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+H2
+{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+H2::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 130px;
+    margin: 20px auto 5px;
+}
+#ContactUs
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding-top: 15px;
+}
+.form-control
+{
+    border-radius: 
+    border: 
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #FFF;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
 
-
+.col-md-12 .fa
+{
+    margin: 20px;
+    color: #007bff;
+    font-weight: bold;
     
-    
+}
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+#privatepolicy .H2
+{
+    padding-top: 
+}
 
 
 
